@@ -1,0 +1,22 @@
+[
+    {
+        "pk": 1, 
+        "model": "currencies.currency", 
+        "fields": {
+            "code": "EUR", 
+            "name": "Euro", 
+            "is_default": true, 
+            "factor": "1"
+        }
+    },
+    {
+        "pk": 2, 
+        "model": "currencies.currency", 
+        "fields": {
+            "code": "USD", 
+            "name": "US Dollar", 
+            "is_default": false, 
+            "factor": "1.5"
+        }
+    }
+]
