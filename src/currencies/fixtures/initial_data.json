@@ -1,0 +1,11 @@
+[
+    {
+        "pk": "CAD",
+        "model": "currencies.currency",
+        "fields": {
+            "name": "Canadian dollar",
+            "is_default": true,
+            "factor": "1"
+        }
+    }
+]
