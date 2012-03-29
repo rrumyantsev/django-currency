@@ -16,6 +16,6 @@ def calculate_price(price, currency):
 
 def get_default_currency():
     try:
-        currency = Currency.objects.get(is_default=True)
-        return currency
-    except Currency.DoesNotExist: return
+        return Currency.objects.get(is_default=True)
+    except Currency.DoesNotExist: 
+        return

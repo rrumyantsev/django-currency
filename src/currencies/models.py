@@ -3,7 +3,7 @@ from django.db import models
 from django.utils.translation import gettext_lazy as _
 
 class Currency(models.Model):
-    code = models.CharField(_('code'), max_length=3, primary_key=True)
+    code = models.CharField(_('code'), max_length=3, primary_key=True, db_index=True)
     name = models.CharField(_('name'), max_length=25)
     factor = models.DecimalField(_('factor'), max_digits=10, decimal_places=4,
         help_text=_('Specifies the difference of the currency to default one.'))
