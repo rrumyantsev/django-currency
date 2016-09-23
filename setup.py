@@ -12,7 +12,7 @@ install_requires = [
 ]
 
 setup(name='django-currency',
-    version='0.0.1',
+    version='5.0.1',
     description='Currencies for Django',
     author='Arpaso',
     author_email='arvid@arpaso.com',
